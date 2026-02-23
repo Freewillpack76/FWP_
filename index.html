@@ -1,0 +1,81 @@
+<!-- Vibecoded with a ton of vscode AI, I was bored at work :P -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>>_</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/59c93badb8.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="name">FreewillPack</h1>
+        <div class="social-icons">
+
+            <a href="https://x.com/FreewillPack" target="_blank" class="icon" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            
+            <a href="https://discord.com/invite/geHcsvNufY" target="_blank" class="icon" title="GitHub">
+                <i class="fab fa-discord"></i>
+            </a>
+
+            <a href="https://ko-fi.com/freewillpack76" target="_blank" class="icon" title="fa-ko-fi">
+                <i class="fab fa-ko-fi"></i>
+            </a>
+
+            <a href="https://patreon.com/FreewillPack_VRC" target="_blank" class="icon" title="fa-patreon">
+                <i class="fab fa-patreon"></i>
+            </a>
+
+            <a href="https://vrchat.com/home/group/grp_90bec9da-2ee6-4ed3-bc99-dfc011cd6e86" target="_blank" class="icon" title="VrChatGroup">
+                <i class="fa-solid fa-circle-nodes"></i>
+            </a>
+            
+
+        </div>
+    </div>
+
+    <div class="musicDiv">
+  <div class="player">
+    <div class="track-info">
+      <img class="cover" src="covers/BurialUntrue.jpg" alt="cover">
+      <div class="meta">
+        <div class="title">Ghost Hardware</div>
+        <div class="artist">Burial</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button class="btn prev" title="Previous"><i class="fas fa-backward"></i></button>
+      <button class="btn play" title="Play/Pause"><i class="fas fa-play"></i></button>
+      <button class="btn next" title="Next"><i class="fas fa-forward"></i></button>
+    </div>
+
+    <div class="progress-wrap">
+      <span class="time current">0:00</span>
+      <div class="progress-bar" aria-label="Seek">
+        <div class="progress"></div>
+      </div>
+      <span class="time duration">0:00</span>
+    </div>
+
+    <div class="extras">
+      <div class="volume">
+        <i class="fas fa-volume-up"></i>
+        <input class="vol" type="range" min="0" max="1" step="0.01" value="0.35">
+      </div>
+    </div>
+
+    <audio id="audio" src="tracks/track1.mp3" preload="metadata"></audio>
+  </div>
+</div>
+
+<script src="player.js"></script>
+</body>
+</html>
+<!-- Another swag ass freewillpack production -->
